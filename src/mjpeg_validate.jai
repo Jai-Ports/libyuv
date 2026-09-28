@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_UNKNOWN_DATA_SIZE_storage: u32;
 
 ValidateJpeg :: (src_mjpg: *u8, src_size_mjpg: u64) -> s32 {

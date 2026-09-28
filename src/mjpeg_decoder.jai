@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_UNKNOWN_DATA_SIZE: u32;
 
 globals_initialization_state_for_mjpeg_decoder: u32;

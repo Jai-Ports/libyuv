@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_SHUFFLE_MASK_ARGB_TO_RGBA: Uvec8;
 
 K_DITHER565_4X4_storage: [16] u8;

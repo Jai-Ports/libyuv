@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 rgb_scale :: (
     src_rgb: *u8,
     src_stride_rgb: s32,

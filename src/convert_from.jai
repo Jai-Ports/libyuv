@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_CPU_INITIALIZED_in_convert_from: s32;
 
 K_CPU_HAS_ARM_in_convert_from: s32;

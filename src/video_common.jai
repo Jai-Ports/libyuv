@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 Four_CC_Alias_Entry :: struct {
     alias: u32;
     canonical: u32;

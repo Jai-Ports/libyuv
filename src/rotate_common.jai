@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 TransposeWxH_C :: (src: *u8, src_stride: s32, dst: *u8, dst_stride: s32, width: s32, height: s32) {
     if 0 < width {
         for i: 0..width - 1 {

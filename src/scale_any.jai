@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 ScaleRowUp2_Linear_Any_C :: (src_ptr: *u8, dst_ptr: *u8, dst_width: s32) {
     work_width := (dst_width - 1) & ~(cast(s32) 1);
 

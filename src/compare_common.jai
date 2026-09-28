@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 HammingDistance_C :: (src_a: *u8, src_b: *u8, count: s32) -> u32 {
     diff: u32 = 0;
 

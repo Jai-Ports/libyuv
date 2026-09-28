@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_CPU_INITIALIZED_in_rotate_argb: s32;
 
 K_CPU_HAS_ARM_in_rotate_argb: s32;

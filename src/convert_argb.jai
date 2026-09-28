@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 K_SHUFFLE_MASK_BGRA_TO_ARGB: Uvec8;
 
 K_SHUFFLE_MASK_ABGR_TO_ARGB: Uvec8;

@@ -1,4 +1,3 @@
-// Generated directly from C++ by cpp_transpiler.
 Uint32_Alias_T :: u32;
 
 FIXED_INVTBL8: [256] u32;
