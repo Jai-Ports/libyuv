@@ -1,0 +1,83 @@
+{
+  "schema_version": 3,
+  "name": "libyuv",
+  "upstream": {
+    "url": "https://chromium.googlesource.com/libyuv/libyuv",
+    "commit": "7c85a3a0820fab29abb502c207d8b9a394e352cc"
+  },
+  "generator": {
+    "repository": "https://github.com/Jai-Ports/generator.git",
+    "commit": "ab02dd192308f04359d639f950bc51503617ff39"
+  },
+  "language": "c++",
+  "standard": "c++11",
+  "supported_target": "linux-x64",
+  "include_directories": [
+    "include"
+  ],
+  "compiler_flags": [
+    "-fwrapv",
+    "-ffp-contract=off"
+  ],
+  "cmake": {"enabled": false, "source_directory": "", "cache_variables": [
+    ], "source_cache_variables": [], "build_targets": [
+    ]},
+  "make": {"enabled": false, "configure_script": "", "configure_arguments": [
+    ], "variables": [
+    ], "generated_targets": [
+    ]},
+  "prepared_files": [
+  ],
+  "dependencies": [
+  ],
+  "submodules": [
+  ],
+  "modules": [
+    {
+      "path": "",
+      "transpiler_prefix": "libyuv",
+      "sources": [
+        "source/compare.cc",
+        "source/compare_common.cc",
+        "source/convert.cc",
+        "source/convert_argb.cc",
+        "source/convert_from.cc",
+        "source/convert_from_argb.cc",
+        "source/convert_jpeg.cc",
+        "source/convert_to_argb.cc",
+        "source/convert_to_i420.cc",
+        "source/cpu_id.cc",
+        "source/mjpeg_decoder.cc",
+        "source/mjpeg_validate.cc",
+        "source/planar_functions.cc",
+        "source/rotate.cc",
+        "source/rotate_any.cc",
+        "source/rotate_argb.cc",
+        "source/rotate_common.cc",
+        "source/row_any.cc",
+        "source/row_common.cc",
+        "source/scale.cc",
+        "source/scale_any.cc",
+        "source/scale_argb.cc",
+        "source/scale_common.cc",
+        "source/scale_rgb.cc",
+        "source/scale_uv.cc",
+        "source/video_common.cc"
+      ],
+      "generator_sources": [],
+      "source_groups": [],
+      "cmake_targets": [
+      ],
+      "make_targets": [
+      ],
+      "defines": [
+        "__pnacl__"
+      ],
+      "compiler_flags": [
+      ],
+      "system_libraries": [
+      ],
+      "entry": "cpp_transpiler_program.jai"
+    }
+  ]
+}
